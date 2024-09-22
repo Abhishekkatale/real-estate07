@@ -1,10 +1,10 @@
 import React from 'react';
-
+/* my react */
 const HeroSection = () => {
   return (
-    <div className="bg-gray-100 py-12 flex items-center justify-between px-8 md:px-24">
+    <div className="bg-gray-100 py-12 flex flex-col md:flex-row items-center justify-between px-8 md:px-24">
       {/* Left Content Section */}
-      <div className="flex flex-col space-y-6 max-w-lg">
+      <div className="flex flex-col space-y-6 max-w-lg md:order-1">
         <div className="flex items-center space-x-2">
           <span className="text-red-500">
             <svg
@@ -37,7 +37,7 @@ const HeroSection = () => {
       </div>
 
       {/* Right Image Section */}
-      <div className="hidden md:block w-1/2">
+      <div className="mt-8 md:mt-0 md:w-1/2 md:order-2">
         <img
           src="https://codewithsadee.github.io/homeverse/assets/images/hero-banner.png"
           alt="House Illustration"
