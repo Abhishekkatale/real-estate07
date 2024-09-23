@@ -25,8 +25,9 @@ const Home = () => {
         <ServicesSection />
         <AboutUs />
         <WhyChooseUs />
-        <OurAgent />
         <Projects />
+        <OurAgent />
+        
       </main>
 
       <Footer/>
