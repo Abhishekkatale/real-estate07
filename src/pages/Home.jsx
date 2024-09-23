@@ -7,7 +7,7 @@ import ServicesSection from '../components/ServicesSection';
 import AboutUs from '../components/AboutUs';
 import WhyChooseUs from '../components/WhyChooseUs';
 import Projects from '../components/Projects';
-import OurAgent from '../components/OurAgent.jsx';
+import OurAgent from '../components/OurAgent';
 
 
 
@@ -26,6 +26,7 @@ const Home = () => {
         <AboutUs />
         <WhyChooseUs />
         <OurAgent />
+        <Projects />
       </main>
 
       <Footer/>
