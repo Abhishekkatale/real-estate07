@@ -1,26 +1,14 @@
 import React from 'react';
-/* my react */
+import { FaHome } from 'react-icons/fa';
+
 const HeroSection = () => {
   return (
-    <div className="bg-gray-100 py-12 flex flex-col md:flex-row items-center justify-between px-8 md:px-24">
+    <div className="bg-gray-200 py-12 flex flex-col md:flex-row items-center justify-between px-8 md:px-24">
       {/* Left Content Section */}
       <div className="flex flex-col space-y-6 max-w-lg md:order-1">
         <div className="flex items-center space-x-2">
           <span className="text-red-500">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth="2"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M3 7l9 9m0 0l9-9m-9 9V3"
-              />
-            </svg>
+            <FaHome className="h-6 w-6" />
           </span>
           <p className="text-gray-600 font-medium">Real Estate Agency</p>
         </div>
